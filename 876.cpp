@@ -13,3 +13,18 @@ public:
         return tmp;
     }
 };
+
+/*
+class Solution {
+public:
+    ListNode* middleNode(ListNode* head) {
+        ListNode* tmp=head;
+        ListNode*ptr=head;
+        while(tmp && ptr && ptr->next){
+            tmp=tmp->next;
+            ptr=ptr->next->next;
+        }
+        return tmp;
+    }
+};
+*/
